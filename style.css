@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #161a1d;
+    font-family: cursive;
+    font-size: 25px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 20%;
+    width: 60%;
+    background-color: #a5a58d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px
+}
+
+.image {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+button,
+input {
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-answer {
+    padding: 20px 20px;
+    display: none;
+}
+
+.question-container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.info-champ {
+    text-align: center;
+    font-size: 14px;
+    color: red;
+}

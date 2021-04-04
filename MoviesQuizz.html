@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Quizz</title>
+</head>
+<html>
+
+
+<body>
+
+    <div class="container" class="hide">
+        <div id="question-container" class='question-container'>
+            <div id="question">Movie Quizz</div>
+            <div id="img-content">
+                <img id="img" class="image" src="" />
+                <div id="date"></div>
+            </div>
+            <div id="play">
+                <button class="btn" onclick="hide()">Play</button>
+            </div>
+            <div id="answer" class="btn-answer">
+                <input id="input" />
+                <button class="btn" onclick="play()">Check</button>
+                <div id="info-champ" class="info-champ"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+<script src="index.js">
+    await initialisation()
+</script>
+
+</html>
